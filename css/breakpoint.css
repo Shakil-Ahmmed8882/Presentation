@@ -52,8 +52,21 @@
           
       
       .hero__description{
-            margin: 3rem ;
+            display: block;
+            margin: 1.8rem 0 2.4rem 0;
             margin-left: 20%;
       }
+
+
+      .social-area{
+            margin: 2rem auto;
+      }
+      .keep-in-touch{
+            display: block;
+            text-align: center;
+          }
+      .fa-youtube{
+            margin: 0 2rem;
+          }
 
 }
