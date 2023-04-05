@@ -1,0 +1,59 @@
+
+
+@media screen and (max-width: 810px){
+      body{
+            font-size: 1.4rem;
+      }
+      .presentation__wrapper{
+            grid-template-columns: 100%;
+      }
+
+      .hero__content{
+            width: 80%;       
+            margin-left: 10%;
+            text-align: center;
+            margin-top: 2rem;
+      }
+      .hero__description{
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 1.3rem;
+      }
+      .hero__btn{
+            width: 80%;
+            background-color: var(--primary-clr);
+          }
+      .social-area{
+            margin: 2rem auto;
+          }
+
+}
+
+@media screen and (max-width: 500px){
+      .presentation__wrapper{
+      padding: 0;
+      }
+
+      .presentation-card {
+            width: 70%;
+            margin-left: 15%;
+
+          }
+      .presentation-card-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            margin: 0 auto;
+      }
+      .presentation-card:hover {
+            box-shadow:0px 10px 60px rgba(128, 128, 128, 0.185);
+            transform: scale(1); 
+          }
+          
+      
+      .hero__description{
+            margin: 3rem ;
+            margin-left: 20%;
+      }
+
+}

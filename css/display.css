@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Basic typography */
+html{
+  font-size: 62.8%;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: var(--primary-bg-clr);
+
+}
+
+
+/* Basic button styles */
+.btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: .3s;
+    }
+
+    .btn:hover {
+      background-color: #000000;
+    }
+
+    /* Global Variables */
+    :root {
+      --primary-bg-clr:#f7f7f8;
+      --primary-clr:#0dcaf0;
+      --white:#ffffff;
+      --text-clr:#494848;
+      --font-family: Arial, sans-serif;
+      --box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.103);
+      --font-family: Arial, sans-serif;
+      --bdn-rds:10px;
+}
+
+
+/* ============ card========== */
+.presentation-card {
+  background-color: var(--white);
+  width: 21rem;
+  height: 25rem;
+  margin: 2rem;
+  box-shadow: var(--box-shadow);
+  padding:3rem  2rem;
+  border-radius: var(--bdn-rds);
+  transition: .6s;
+ }  
+.presentation-card:hover {
+  box-shadow:0px 10px 60px rgba(128, 128, 128, 0.548);
+  transform: scale(1.1); 
+}
+
+.presentation-img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: rgba(6, 74, 114, 0.096);
+  padding:1.1rem;
+  margin: 0 auto;
+}
+.presentation-img img{
+  width: 100%;
+}
+
+.presentation-card__content{
+  display: inline-block;
+  margin-top:1.4rem;
+}
+.presentation-card__title{
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', sans-serif;
+}
+.presentation-card__description{
+  margin: .4rem;
+  padding: 0;
+  margin: .5rem;
+  color: var(--text-clr);
+  font-size: 1.4rem;
+}
+
+
+/* ============ Hero column========== */
+.hero-column{
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.hero__title{
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+.hero__description{
+  color: var(--text-clr);
+  margin: .5rem 0;
+}
+.hero__btn{
+  width: 20rem;
+  margin: 2rem 0;
+  background-color: var(--primary-clr);
+}
+
+.social-area{
+  margin-top: auto;
+  margin-bottom:1rem; 
+}
+.keep-in-touch{
+  color:#000000b9;
+}
+.social__icons{
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.fa-twitter,
+.fa-youtube,
+.fa-facebook{
+  background-color: #0dcaf041;
+  padding: .5rem;
+  border-radius: 50%;
+}
+.fa-facebook{
+  color: #1771E6;
+}
+.fa-youtube{
+  color: #C31E1D;
+}
+.fa-twitter{
+  color: #1C93E4;
+}

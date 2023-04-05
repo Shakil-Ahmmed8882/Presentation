@@ -1,0 +1,22 @@
+
+
+.presentation__wrapper{
+      width: 100%;
+      max-width: 1000px;
+      min-width: 500px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 2rem;
+      justify-content: center;
+      overflow: hidden;
+      padding: 3rem;
+      overflow-x: hidden;
+}
+
+.presentation-card-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+      margin: 0 auto;
+}
