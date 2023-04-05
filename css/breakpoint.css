@@ -1,9 +1,7 @@
 
 
 @media screen and (max-width: 810px){
-      body{
-            font-size: 1.4rem;
-      }
+
       .presentation__wrapper{
             grid-template-columns: 100%;
       }
@@ -31,8 +29,8 @@
 
 @media screen and (max-width: 500px){
       .presentation__wrapper{
-      padding: 0;
-      }
+            padding: 0;
+            }
 
       .presentation-card {
             width: 70%;
@@ -65,8 +63,4 @@
             display: block;
             text-align: center;
           }
-      .fa-youtube{
-            margin: 0 2rem;
-          }
-
 }

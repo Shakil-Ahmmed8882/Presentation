@@ -127,12 +127,12 @@ body {
   margin-bottom:1rem; 
 }
 .keep-in-touch{
+  display: block;
   color:#000000b9;
+  margin-bottom: 1rem;
 }
 .social__icons{
-  padding: 1rem 0;
   display: flex;
-  gap: 1rem;
 }
 .fa-twitter,
 .fa-youtube,
@@ -146,6 +146,7 @@ body {
 }
 .fa-youtube{
   color: #C31E1D;
+    margin: 0  1.3rem;
 }
 .fa-twitter{
   color: #1C93E4;
