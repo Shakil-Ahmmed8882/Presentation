@@ -9,13 +9,16 @@
 
 /* Basic typography */
 html{
-  font-size: 62.8%;
+  font-size:65%;
+  touch-action: manipulation;
+
 }
 body {
   font-family: Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   background-color: var(--primary-bg-clr);
+
 
 }
 
@@ -33,11 +36,11 @@ body {
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      transition: .3s;
+      transition: .4s;
     }
 
     .btn:hover {
-      background-color: #000000;
+      background:linear-gradient(#000000,hwb(0 0% 100% / 0.937)) ;
     }
 
     /* Global Variables */
@@ -53,6 +56,7 @@ body {
 }
 
 
+
 /* ============ card========== */
 .presentation-card {
   background-color: var(--white);
@@ -63,6 +67,8 @@ body {
   padding:3rem  2rem;
   border-radius: var(--bdn-rds);
   transition: .6s;
+  perspective: 1000px;
+  transform: rotatey(10deg);
  }  
 .presentation-card:hover {
   box-shadow:0px 10px 60px rgba(128, 128, 128, 0.548);
@@ -119,7 +125,20 @@ body {
 .hero__btn{
   width: 20rem;
   margin: 2rem 0;
-  background-color: var(--primary-clr);
+  background:linear-gradient(var(--primary-clr),hwb(185 0% 3% / 0.937)) ;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.065);
+  transform: skew(45deg);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-area{
