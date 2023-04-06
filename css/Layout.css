@@ -2,15 +2,13 @@
 
 .presentation__wrapper{
       width: 100%;
-      max-width: 1000px;
-      min-width: 500px;
+      min-height: 100vh;
+      min-width: 400px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: 1fr 300px;
-      gap: 2rem;
+      grid-template-columns: 1fr 40% ;
       justify-content: center;
-      overflow: hidden;
-      padding: 3rem;
+      place-content: center;
       overflow-x: hidden;
 }
 

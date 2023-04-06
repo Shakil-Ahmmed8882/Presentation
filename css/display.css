@@ -18,8 +18,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   background-color: var(--primary-bg-clr);
-
-
+  overflow-x: hidden;
 }
 
 
@@ -58,15 +57,17 @@ body {
 
 
 /* ============ card========== */
-.presentation-card {
+
+.presentation-card{
   background-color: var(--white);
-  width: 21rem;
+  width: 20rem;
   height: 25rem;
-  margin: 2rem;
+  margin: 0 auto;
   box-shadow: var(--box-shadow);
-  padding:3rem  2rem;
   border-radius: var(--bdn-rds);
   transition: .6s;
+  margin: 1.5rem;
+  padding: 2rem 0;
   perspective: 1000px;
   transform: rotatey(10deg);
  }  
@@ -106,6 +107,7 @@ body {
 
 /* ============ Hero column========== */
 .hero-column{
+  margin: 0 auto;
   padding: 2rem;
   height: 100%;
   display: flex;
@@ -126,19 +128,6 @@ body {
   width: 20rem;
   margin: 2rem 0;
   background:linear-gradient(var(--primary-clr),hwb(185 0% 3% / 0.937)) ;
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  right: -4px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.065);
-  transform: skew(45deg);
-  z-index: -1;
-  transition: all 0.3s ease-in-out;
 }
 
 .social-area{
