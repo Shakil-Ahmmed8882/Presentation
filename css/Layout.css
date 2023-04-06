@@ -2,6 +2,7 @@
 
 .presentation__wrapper{
       width: 100%;
+      max-width: 900px;
       min-height: 100vh;
       min-width: 400px;
       margin: 0 auto;
